@@ -136,7 +136,6 @@ impl App {
             &block.previous_hash,
             &block.data,
             block.nonce,
-            block.nonce,
         )) != block.hash
         {
             warn!("block with id:{} has invalid hash", block.id);
